@@ -1,0 +1,41 @@
+Job Title: Data Scientist
+
+Company: ABC Technologies
+
+Job Description:
+
+We are looking for a passionate Data Scientist to join our team. The ideal candidate should have strong analytical skills and experience in machine learning, data analysis, and software development.
+
+Required Skills:
+- Python
+- SQL
+- Machine Learning
+- Deep Learning
+- Pandas
+- NumPy
+- Scikit-learn
+- TensorFlow
+- Power BI
+- Tableau
+- Statistics
+- Data Visualization
+- Git & GitHub
+- Streamlit
+- Flask
+- AWS
+- Docker
+- Excel
+
+Responsibilities:
+- Collect, clean, and analyze large datasets.
+- Build predictive machine learning models.
+- Develop dashboards and reports.
+- Deploy machine learning models using Streamlit or Flask.
+- Work with SQL databases.
+- Collaborate with cross-functional teams.
+- Present insights to stakeholders.
+
+Qualification:
+- Bachelor's degree in Computer Science, Data Science, Artificial Intelligence, or a related field.
+- Good knowledge of Python programming.
+- Strong understanding of statistics and machine learning.
