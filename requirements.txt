@@ -1,0 +1,11 @@
+
+pdfplumber
+python-docx
+spacy
+scikit-learn
+pandas
+numpy
+matplotlib
+openpyxl
+streamlit
+pyngrok
