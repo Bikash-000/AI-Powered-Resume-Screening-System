@@ -109,6 +109,7 @@ Skill Gap Analysis
 Excel Report
        ↓
 Streamlit Dashboard
+```
 
 ---
 
@@ -144,6 +145,7 @@ AI-Powered-Resume-Screening-System/
 │
 └── outputs/
     └── Resume_Screening_Report.xlsx
+```
 
 ---
 
@@ -224,9 +226,7 @@ The main objective of this project is to automate the initial resume screening p
 - Permanent deployment using Streamlit Cloud
 - Recruiter authentication
 
-
 ---
-
 
 ## 👨‍💻 Author
 
@@ -238,9 +238,7 @@ The main objective of this project is to automate the initial resume screening p
 
 🔗 GitHub: https://github.com/Bikash-000
 
-
 ---
-
 
 ## ⭐ If You Like This Project
 
