@@ -111,39 +111,27 @@ Excel Report
 Streamlit Dashboard
 
 
-📊 Sample Output
+## 📊 Sample Output
+
 The application displays candidate information such as:
-Resume
-Similarity
-Matched Skills
-ATS Score
-Final Score
-resume2.pdf
-37.78%
-10
-62.5
-55.68
-resume3.pdf
-24.89%
-3
-18.75
-20.89
-resume1.pdf
-3.13%
-2
-12.5
-9.68
+
+| Resume | Similarity | Matched Skills | ATS Score | Final Score |
+|---|---:|---:|---:|---:|
+| resume2.pdf | 37.78% | 10 | 62.5 | 55.68 |
+| resume3.pdf | 24.89% | 3 | 18.75 | 20.89 |
+| resume1.pdf | 3.13% | 2 | 12.5 | 9.68 |
+
 Candidates are automatically ranked based on their final scores.
 
+## 📁 Project Structure
 
-📁 Project Structure
+```text
 AI-Powered-Resume-Screening-System/
 │
 ├── app.py
 ├── project.ipynb
 ├── requirements.txt
 ├── README.md
-│
 ├── job_description.txt
 │
 ├── resumes/
@@ -154,28 +142,44 @@ AI-Powered-Resume-Screening-System/
 └── outputs/
     └── Resume_Screening_Report.xlsx
 
+## ⚙️ Installation
 
-⚙️ Installation
+### 1. Clone the repository
 
-Clone the repository:
+bash
 git clone https://github.com/Bikash-000/AI-Powered-Resume-Screening-System.git
 
-Go to the project folder:
+
+### 2. Go to the project folder
+
+bash
 cd AI-Powered-Resume-Screening-System
 
-Install the required dependencies:
+
+### 3. Install dependencies
+
+bash
 pip install -r requirements.txt
 
-Download the spaCy English model:
+
+### 4. Download the spaCy English model
+
+bash
 python -m spacy download en_core_web_sm
 
-▶️ How to Run
+
+## ▶️ How to Run
+
 Run the Streamlit application:
+
+bash
 streamlit run app.py
+
+
 The application will open in your browser.
 
+## 📌 How It Works
 
-📌 How It Works
 1. Upload the job description.
 2. Upload multiple candidate resumes.
 3. The system extracts text from the resumes.
@@ -189,28 +193,31 @@ The application will open in your browser.
 11. Results are exported to Excel.
 12. Results are displayed through the Streamlit dashboard.
 
+## 🎯 Project Objective
 
-🎯 Project Objective
 The main objective of this project is to automate the initial resume screening process and help recruiters quickly identify candidates whose skills and experience best match a given job description.
 
+## 🔮 Future Enhancements
 
-🔮 Future Enhancements
-Add BERT/Transformer-based semantic matching
-Add more advanced skill extraction
-Support DOCX resumes
-Add resume quality scoring
-Add candidate recommendation system
-Add database integration
-Deploy permanently using Streamlit Cloud
-Add authentication for recruiters
+- BERT/Transformer-based semantic matching
+- Advanced skill extraction
+- DOCX resume support
+- Resume quality scoring
+- Candidate recommendation system
+- Database integration
+- Permanent deployment using Streamlit Cloud
+- Recruiter authentication
 
+## 👨‍💻 Author
 
-👨‍💻 Author
-Bikash Ranjan Dhir
+*Bikash Ranjan Dhir*
+
 🎓 B.Tech — CSE (Data Science)
+
 📍 Bhubaneswar, India
-🔗 GitHub: https://github.com/Bikash-000⁠�
 
+🔗 GitHub: https://github.com/Bikash-000
 
-⭐ If You Like This Project
+## ⭐ If You Like This Project
+
 If you find this project useful, consider giving the repository a ⭐ star!
