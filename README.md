@@ -109,3 +109,108 @@ Skill Gap Analysis
 Excel Report
        ↓
 Streamlit Dashboard
+
+
+📊 Sample Output
+The application displays candidate information such as:
+Resume
+Similarity
+Matched Skills
+ATS Score
+Final Score
+resume2.pdf
+37.78%
+10
+62.5
+55.68
+resume3.pdf
+24.89%
+3
+18.75
+20.89
+resume1.pdf
+3.13%
+2
+12.5
+9.68
+Candidates are automatically ranked based on their final scores.
+
+
+📁 Project Structure
+AI-Powered-Resume-Screening-System/
+│
+├── app.py
+├── project.ipynb
+├── requirements.txt
+├── README.md
+│
+├── job_description.txt
+│
+├── resumes/
+│   ├── resume1.pdf
+│   ├── resume2.pdf
+│   └── resume3.pdf
+│
+└── outputs/
+    └── Resume_Screening_Report.xlsx
+
+
+⚙️ Installation
+
+Clone the repository:
+git clone https://github.com/Bikash-000/AI-Powered-Resume-Screening-System.git
+
+Go to the project folder:
+cd AI-Powered-Resume-Screening-System
+
+Install the required dependencies:
+pip install -r requirements.txt
+
+Download the spaCy English model:
+python -m spacy download en_core_web_sm
+
+▶️ How to Run
+Run the Streamlit application:
+streamlit run app.py
+The application will open in your browser.
+
+
+📌 How It Works
+1. Upload the job description.
+2. Upload multiple candidate resumes.
+3. The system extracts text from the resumes.
+4. NLP preprocessing is performed using spaCy.
+5. Required skills are extracted.
+6. TF-IDF converts text into numerical vectors.
+7. Cosine Similarity calculates resume-job similarity.
+8. ATS scores are calculated.
+9. Candidates are ranked according to their final scores.
+10. Skill gaps are identified.
+11. Results are exported to Excel.
+12. Results are displayed through the Streamlit dashboard.
+
+
+🎯 Project Objective
+The main objective of this project is to automate the initial resume screening process and help recruiters quickly identify candidates whose skills and experience best match a given job description.
+
+
+🔮 Future Enhancements
+Add BERT/Transformer-based semantic matching
+Add more advanced skill extraction
+Support DOCX resumes
+Add resume quality scoring
+Add candidate recommendation system
+Add database integration
+Deploy permanently using Streamlit Cloud
+Add authentication for recruiters
+
+
+👨‍💻 Author
+Bikash Ranjan Dhir
+🎓 B.Tech — CSE (Data Science)
+📍 Bhubaneswar, India
+🔗 GitHub: https://github.com/Bikash-000⁠�
+
+
+⭐ If You Like This Project
+If you find this project useful, consider giving the repository a ⭐ star!
