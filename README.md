@@ -110,6 +110,7 @@ Excel Report
        ↓
 Streamlit Dashboard
 
+---
 
 ## 📊 Sample Output
 
@@ -122,6 +123,8 @@ The application displays candidate information such as:
 | resume1.pdf | 3.13% | 2 | 12.5 | 9.68 |
 
 Candidates are automatically ranked based on their final scores.
+
+---
 
 ## 📁 Project Structure
 
@@ -141,6 +144,8 @@ AI-Powered-Resume-Screening-System/
 │
 └── outputs/
     └── Resume_Screening_Report.xlsx
+
+---
 
 ## ⚙️ Installation
 
@@ -175,8 +180,11 @@ Run the Streamlit application:
 bash
 streamlit run app.py
 
-
 The application will open in your browser.
+
+
+---
+
 
 ## 📌 How It Works
 
@@ -193,9 +201,17 @@ The application will open in your browser.
 11. Results are exported to Excel.
 12. Results are displayed through the Streamlit dashboard.
 
+
+---
+
+
 ## 🎯 Project Objective
 
 The main objective of this project is to automate the initial resume screening process and help recruiters quickly identify candidates whose skills and experience best match a given job description.
+
+
+---
+
 
 ## 🔮 Future Enhancements
 
@@ -208,6 +224,10 @@ The main objective of this project is to automate the initial resume screening p
 - Permanent deployment using Streamlit Cloud
 - Recruiter authentication
 
+
+---
+
+
 ## 👨‍💻 Author
 
 *Bikash Ranjan Dhir*
@@ -217,6 +237,10 @@ The main objective of this project is to automate the initial resume screening p
 📍 Bhubaneswar, India
 
 🔗 GitHub: https://github.com/Bikash-000
+
+
+---
+
 
 ## ⭐ If You Like This Project
 
